@@ -1,5 +1,7 @@
 study2skills | AI Engineering Career Accelerator
+
 study2skills is a world-class, AI-driven career acceleration platform specifically architected for engineering students. It bridges the gap between academic learning and industrial placement using the Gemini 3 Pro intelligence engine.
+
 🚀 Vision
 To provide every engineering student with a personal AI Architect that generates curriculum roadmaps, optimizes professional identities (Resumes/Portfolios), and automates the job application lifecycle through real-time market grounding.
 🛠 Tech Stack
