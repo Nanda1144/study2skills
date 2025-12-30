@@ -1,0 +1,8 @@
+{
+  "name": "study2skills",
+  "description": "An AI-powered career acceleration platform for engineering students providing personalized roadmaps, resume analysis, mock interviews, and automated job matching.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

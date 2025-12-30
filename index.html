@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>study2skills | AI Engineering Career Accelerator</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --app-height: 100%;
+    }
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+    body { 
+      font-family: 'Inter', sans-serif;
+      min-height: 100dvh; /* Dynamic viewport height for mobile */
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    
+    /* Global scrollbar behavior */
+    .custom-scrollbar::-webkit-scrollbar { width: 6px; }
+    .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+    .custom-scrollbar::-webkit-scrollbar-thumb { background: #334155; border-radius: 10px; }
+
+    /* COMPLETE MOBILE SCROLLBAR REMOVAL */
+    @media (max-width: 768px) {
+      * {
+        -ms-overflow-style: none;  /* IE/Edge */
+        scrollbar-width: none;     /* Firefox */
+      }
+      *::-webkit-scrollbar {
+        display: none !important;  /* Chrome/Safari */
+      }
+    }
+    
+    /* Prevent text size adjustment after orientation change */
+    html { -webkit-text-size-adjust: 100%; }
+
+    /* Custom Theme Support for Tailwind CDN */
+    .light {
+      background-color: #f8fafc;
+      color: #0f172a;
+    }
+    .dark {
+      background-color: #020617;
+      color: #f1f5f9;
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.11.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.34.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "recharts": "https://esm.sh/recharts@^3.6.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="selection:bg-indigo-500/30">
+  <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
